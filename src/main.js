@@ -16,17 +16,21 @@ Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
 
+import ElementUI from 'element-ui'
+Vue.use(ElementUI)
+
+
 // element-ui按需加载，避免全部引入导致最终包过大，自行加入所需组件
-import {
-  Select
-} from 'element-ui'
-Vue.use(Select)
+// import {
+//   Select
+// } from 'element-ui'
+// Vue.use(Select)
 // Message组件引入
-import Message from 'element-ui/lib/message'
-Vue.prototype.$message = Message
+// import Message from 'element-ui/lib/message'
+// Vue.prototype.$message = Message
 // Notification组件引入
-import Notification from 'element-ui/lib/notification'
-Vue.prototype.$notify = Notification
+// import Notification from 'element-ui/lib/notification'
+// Vue.prototype.$notify = Notification
 
 // 路由跳转之前操作
 // router.beforeEach((to, from, next) => {

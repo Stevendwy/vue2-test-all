@@ -1,6 +1,7 @@
 <template>
   <div class="test">
-    <router-link to="/test/test1">前往test1页面</router-link>
+    <router-link to="/">前往hello</router-link>
+    
   </div>
 </template>
 

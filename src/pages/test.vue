@@ -14,7 +14,7 @@
 
     <modal>
       <div class="test-modal">
-        <h3>hello modal</h3>
+        <h3>show modal</h3>
       </div>
     </modal>
   </div>

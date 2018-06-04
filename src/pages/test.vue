@@ -2,6 +2,7 @@
   <div class="test">
     <p><a @click="showModal" style="cursor: pointer;">Click this to show Modal</a></p>
     <router-link to="/test/test1">前往test1页面</router-link>
+    <router-link to="/test/test2">显示组件页面</router-link>
 
     <transition
       name="custom-classes-transition"

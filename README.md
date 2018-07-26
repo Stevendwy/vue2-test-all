@@ -1,6 +1,7 @@
 # vue2-test-all
 
-> A Vue.js project
+> vue 测试框架
+> 处理路由切换 动画效果 测试请求
 
 ## Build Setup
 
@@ -17,5 +18,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
